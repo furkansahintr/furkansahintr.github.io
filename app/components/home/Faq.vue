@@ -7,12 +7,17 @@ const { locale } = useI18n()
 
 const slug = computed(() => withLeadingSlash(String(route.params.slug)))
 
-const { data: faq, refresh } = await useAsyncData('faq-' + slug.value, async () => {
-  const collection = ('faq_' + locale.value) as keyof Collections
-  return await queryCollection(collection).first() as Collections['faq_en'] | Collections['faq_tr']
-}, {
-  watch: [locale, route],
-})
+const { data: faq, refresh } = await useAsyncData(
+  'faq-' + slug.value + '-' + locale.value,
+  async () => {
+    const collection = ('faq_' + locale.value) as keyof Collections
+    return await queryCollection(collection).first() as Collections['faq_en'] | Collections['faq_tr']
+  },
+  {
+    watch: [locale, route],
+    immediate: true,
+  },
+)
 
 watch(locale, () => {
   refresh()

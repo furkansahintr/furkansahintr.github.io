@@ -25,7 +25,7 @@ export default defineNuxtConfig({
   css: ['~/assets/style/main.css'],
 
   site: {
-    url: 'https://canvas.hrcd.fr',
+    url: 'https://furkansahin.tr',
     defaultLocale: 'en',
     indexable: true,
   },
@@ -59,6 +59,10 @@ export default defineNuxtConfig({
     public: {
       resend: !!process.env.NUXT_PRIVATE_RESEND_API_KEY,
     },
+  },
+
+  generate: {
+    routes: ['/tr', '/en'],
   },
 
   routeRules: {
