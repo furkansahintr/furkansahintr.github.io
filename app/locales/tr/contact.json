@@ -16,5 +16,11 @@
     "bug": "Bir hata bildirmek",
     "question": "Bir soru sormak",
     "other": "Diğer"
+  },
+  "validation": {
+    "email": "Geçersiz e-posta",
+    "message_min": "Mesaj çok kısa",
+    "subject_min": "Konu çok kısa",
+    "fullname_min": "İsim çok kısa"
   }
 }

@@ -16,5 +16,11 @@
     "bug": "Report a bug",
     "question": "Ask a question",
     "other": "Other"
+  },
+  "validation": {
+    "email": "Invalid email",
+    "message_min": "Message is too short",
+    "subject_min": "Subject is too short",
+    "fullname_min": "Name is too short"
   }
 }

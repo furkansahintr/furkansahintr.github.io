@@ -30,7 +30,7 @@ const stack = await queryCollection('stack').first()
           />
         </div>
         <AboutSignature class="absolute -bottom-56 right-0 hidden w-56 sm:block" />
-        <AboutSignature class="black absolute -bottom-56 -right-2 w-48 sm:hidden" />
+        <AboutSignature class="black absolute -bottom-48 -right-2 w-32 sm:hidden" />
       </div>
     </div>
     <Divider class="my-8" />

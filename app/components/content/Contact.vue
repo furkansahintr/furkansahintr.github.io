@@ -6,6 +6,8 @@ const { profile } = useAppConfig()
 const { t } = useI18n()
 
 const isResendEnabled = useRuntimeConfig().public.resend
+const timer = ref<number>(0)
+let intervalId: number | null = null
 
 const state = ref({
   email: '',
@@ -13,19 +15,24 @@ const state = ref({
   phone: '',
   fullname: '',
   subject: '',
+  it: '',
 })
 
 const schema = z.object({
-  email: z.string().email('Invalid email'),
-  message: z.string().min(10, 'Message is too short'),
-  subject: z.string().min(5, 'Subject is too short'),
-  fullname: z.string().min(3, 'Name is too short'),
+  email: z.string().email(t('contact.validation.email')),
+  message: z.string().min(10, t('contact.validation.message_min')),
+  subject: z.string().min(5, t('contact.validation.subject_min')),
+  fullname: z.string().min(3, t('contact.validation.fullname_min')),
 })
 type Schema = z.output<typeof schema>
 
 const loading = ref(false)
 
 async function onSubmit(event: FormSubmitEvent<Schema>) {
+  if (timer.value < 5 || state.value.it) {
+    return
+  }
+
   loading.value = true
   try {
     await $fetch('/api/emails/send', {
@@ -38,6 +45,7 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
       phone: '',
       fullname: '',
       subject: '',
+      it: '',
     }
     toast.success(t('contact.success'))
   }
@@ -46,6 +54,24 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
   }
   loading.value = false
 }
+
+const startTimer = () => {
+  if (intervalId === null) {
+    intervalId = window.setInterval(() => {
+      timer.value++
+    }, 1000)
+  }
+}
+
+const stopTimer = () => {
+  if (intervalId !== null) {
+    clearInterval(intervalId)
+    intervalId = null
+  }
+}
+
+onMounted(startTimer)
+onUnmounted(stopTimer)
 </script>
 
 <template>
@@ -132,6 +158,17 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
             class="w-full"
             :rows="4"
             :placeholder="t('contact.description')"
+          />
+        </UFormField>
+        <UFormField
+          label="Name"
+          name="it"
+          required
+          class="h-0 invisible"
+        >
+          <UInput
+            v-model="state.it"
+            class="w-full"
           />
         </UFormField>
         <div class="flex justify-center">
