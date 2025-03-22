@@ -6,12 +6,24 @@
       "title": "Services",
       "questions": [
         {
-          "label": "What services do you offer?",
-          "content": "I offer a range of services including web design, web development, branding, and photography. I can also help with SEO and social media marketing."
+          "label": "What design and development services do you offer?",
+          "content": "The services I offer include user-friendly web design, frontend development, responsive (mobile-friendly) design, UI/UX design, developing interactive features for web applications, and performance optimization. Additionally, I create digital identities for brands and present their visual designs professionally."
         },
         {
-          "label": "Can you teach me how to make a website?",
-          "content": "I don't offer courses at the moment, but I can recommend resources and advice to help you get the most out of your learning."
+          "label": "What steps do you follow in your design process?",
+          "content": "My design process generally consists of three main stages: research, design, and testing. In the first stage, I shape the project by conducting user needs analysis, market research, and competitor analysis. In the second stage, I create wireframes, prototypes, and visual designs, gathering client feedback. In the final stage, I test the feasibility of the design and continuously improve the user experience."
+        },
+        {
+          "label": "Which technologies do you use in web and mobile projects?",
+          "content": "For web projects, I typically use modern technologies like React.js, Vue.js, and Tailwind CSS. These technologies allow me to develop fast, scalable, and user-friendly projects. For mobile projects, I use React Native to create high-performance, native-like experiences for both iOS and Android platforms. Additionally, I quickly adapt to emerging frontend and mobile technologies, constantly researching new tools and frameworks to strengthen my projects with the latest innovations."
+        },
+        {
+          "label": "Do you offer custom solutions tailored to your target audience?",
+          "content": "Yes, I customize each project based on the needs of the target audience. Focusing on user experience and functionality, I develop aesthetically pleasing and functional solutions that meet the expectations of the visitor group. In design, I make improvements based on user feedback to make each project more focused and effective."
+        },
+        {
+          "label": "What features are included in your web and mobile projects?",
+          "content": "My web and mobile projects are designed and developed to comply with user-friendly accessibility standards. They are optimized for search engines with SEO-friendly configurations and ensure fast loading times. I pay attention to performance, security, and data protection in both web and mobile projects."
         }
       ]
     },
@@ -19,20 +31,16 @@
       "title": "Pricing",
       "questions": [
         {
-          "label": "How much does a project cost?",
-          "content": "The cost of a project depends on many factors, such as the size of the project, the features, the development time, etc. The initial amount of my web services starts at 2000€, with an average between 3000€ and 10000€. For any other design or consulting service, I usually charge 450€ per day."
+          "label": "How are your service prices determined?",
+          "content": "Prices are determined based on the scope, complexity, and requirements of the project. Since each project is different, each requires a unique proposal and pricing process. After reviewing the project details, I provide the most suitable price for you."
         },
         {
-          "label": "How does payment work for a project?",
-          "content": "I ask for a 40% deposit before starting a project, and the remaining 60% after successful delivery. I accept payments by bank transfer, PayPal, etc..."
+          "label": "Do you charge on a project basis or hourly?",
+          "content": "I offer both project-based and hourly pricing options. Project-based pricing is suitable for tasks with a specific scope and delivery time. Hourly pricing can be preferred for more flexible projects or ongoing work."
         },
         {
-          "label": "How long does a project take?",
-          "content": "It's difficult to give an exact estimate, as each project is different, but the majority of my past work has taken between 2 weeks and 2 months."
-        },
-        {
-          "label": "Do you offer discounts?",
-          "content": "I offer a 15% discount for students and non-profit organizations."
+          "label": "Do your prices change?",
+          "content": "Prices may change depending on the scope and requirements of the project. There may be adjustments in pricing if additional requests or project expansions occur. However, I always inform and get approval from the client in advance regarding any price changes."
         }
       ]
     },
@@ -40,12 +48,24 @@
       "title": "Personal",
       "questions": [
         {
-          "label": "What do you enjoy most about this work?",
-          "content": "I love learning new things and being able to create just about anything from scratch, creating beautiful things that people will use and appreciate."
+          "label": "Why did you choose to work in frontend development and design?",
+          "content": "I love improving and appreciating beauty. I wanted to combine this with my analytical skills in software, and the combination of these two areas allows me to create both aesthetic and functional solutions."
         },
         {
-          "label": "Hobbies outside of work?",
-          "content": "I love what I do, so I usually spend a lot of time working on personal projects, photography, etc. I'm also a big sports fan. I often go to the gym and I recently started climbing!"
+          "label": "What is the most rewarding project in your career?",
+          "content": "It's hard to point to just one project; however, there are several projects whose interfaces I designed, and millions of people use these interfaces every month. This makes me very proud. Additionally, the impact of the voluntary 'conscience' projects I've worked on, which have touched thousands of people, is always a source of pride for me."
+        },
+        {
+          "label": "Which technologies would you like to explore personally?",
+          "content": "Personally, I would like to delve deeper into user experience and visual design. Additionally, I am eager to explore emerging technologies such as artificial intelligence and machine learning. Learning how these technologies can be integrated into software development to further improve user experiences could be an exciting opportunity."
+        },
+        {
+          "label": "How do you spend your time outside of work?",
+          "content": "I usually spend my time reading and researching philosophical topics, human relations, metaphysics, and space. I also find peace through my religious practices."
+        },
+        {
+          "label": "What are your future goals?",
+          "content": "My future goal is to build the biggest projects and companies in my field and serve humanity."
         }
       ]
     }

@@ -1,9 +1,24 @@
 {
   "items": [
     {
-      "name": "Nuxt",
-      "link": "https://nuxt.com/",
-      "icon": "custom:nuxt"
+      "name": "Typescript",
+      "link": "https://www.typescriptlang.org/",
+      "icon": "custom:typescript"
+    },
+    {
+      "name": "React",
+      "link": "https://react.dev/",
+      "icon": "custom:react"
+    },
+    {
+      "name": "Next",
+      "link": "https://nextjs.org/",
+      "icon": "custom:next"
+    },
+    {
+      "name": "Gatsbyjs",
+      "link": "https://www.gatsbyjs.com/",
+      "icon": "custom:gatsby"
     },
     {
       "name": "Vue",
@@ -11,9 +26,14 @@
       "icon": "custom:vue"
     },
     {
-      "name": "Nest",
-      "link": "https://nestjs.com/",
-      "icon": "custom:nest"
+      "name": "Nuxt",
+      "link": "https://nuxt.com/",
+      "icon": "custom:nuxt"
+    },
+    {
+      "name": "Quasar",
+      "link": "https://quasar.dev/",
+      "icon": "custom:quasar"
     },
     {
       "name": "TailwindCSS",
@@ -21,9 +41,14 @@
       "icon": "custom:tailwind"
     },
     {
-      "name": "Prisma",
-      "link": "https://www.prisma.io/",
-      "icon": "custom:prisma"
+      "name": "Expo",
+      "link": "https://expo.dev/",
+      "icon": "custom:expo"
+    },
+    {
+      "name": "Electron",
+      "link": "https://www.electronjs.org/",
+      "icon": "custom:electron"
     },
     {
       "name": "Vercel",
@@ -31,44 +56,34 @@
       "icon": "custom:vercel"
     },
     {
-      "name": "Linear",
-      "link": "https://linear.app/",
-      "icon": "custom:linear"
+      "name": "Graphql",
+      "link": "https://graphql.org/",
+      "icon": "custom:graphql"
     },
     {
-      "name": "Arc",
-      "link": "https://arc.net/",
-      "icon": "custom:arc"
+      "name": "Nest",
+      "link": "https://nestjs.com/",
+      "icon": "custom:nest"
     },
     {
-      "name": "Raycast",
-      "link": "https://raycast.com/",
-      "icon": "custom:raycast"
+      "name": "Strapi",
+      "link": "https://strapi.io/",
+      "icon": "custom:strapi"
     },
     {
-      "name": "Notion",
-      "link": "https://www.notion.so/",
-      "icon": "custom:notion"
+      "name": "Eslint",
+      "link": "https://eslint.org/",
+      "icon": "custom:eslint"
     },
     {
-      "name": "Cron",
-      "link": "https://calendar.cron.com/",
-      "icon": "custom:cron"
+      "name": "Docker",
+      "link": "https://www.docker.com/",
+      "icon": "custom:docker"
     },
     {
-      "name": "Spark",
-      "link": "https://sparkmailapp.com/",
-      "icon": "custom:spark"
-    },
-    {
-      "name": "1Password",
-      "link": "https://1password.com/",
-      "icon": "custom:onepassword"
-    },
-    {
-      "name": "Fig",
-      "link": "https://fig.io/",
-      "icon": "custom:fig"
+      "name": "Mockoon",
+      "link": "https://mockoon.com/",
+      "icon": "custom:mockoon"
     },
     {
       "name": "Figma",
@@ -76,19 +91,34 @@
       "icon": "custom:figma"
     },
     {
-      "name": "Photoshop",
-      "link": "https://www.adobe.com/products/photoshop.html",
-      "icon": "custom:photoshop"
+      "name": "Spline Design",
+      "link": "https://spline.design/",
+      "icon": "custom:splinedesign"
     },
     {
-      "name": "Illustrator",
-      "link": "https://www.adobe.com/products/illustrator.html",
-      "icon": "custom:illustrator"
+      "name": "Slack",
+      "link": "https://slack.com/",
+      "icon": "custom:slack"
     },
     {
-      "name": "Lightroom",
-      "link": "https://www.adobe.com/products/photoshop-lightroom.html",
-      "icon": "custom:lightroom"
+      "name": "Teams",
+      "link": "https://www.microsoft.com/en-us/microsoft-teams/group-chat-software",
+      "icon": "custom:teams"
+    },
+    {
+      "name": "Atlassian",
+      "link": "https://www.atlassian.com/",
+      "icon": "custom:atlassian"
+    },
+    {
+      "name": "Plane",
+      "link": "https://plane.so/",
+      "icon": "custom:plane"
+    },
+    {
+      "name": "ClickUp",
+      "link": "https://clickup.com/",
+      "icon": "custom:clickup"
     }
   ]
 }

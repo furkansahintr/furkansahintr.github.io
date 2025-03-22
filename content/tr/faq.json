@@ -1,51 +1,71 @@
 {
-  "title": "FAQ",
-  "subtitle": "Questions qu'on me pose souvent",
+  "title": "SSS",
+  "subtitle": "Bana sıkça sorulan sorular",
   "faqQuestions": [
     {
-      "title": "Services",
+      "title": "Hizmetler",
       "questions": [
         {
-          "label": "Quels services je propose?",
-          "content": "Je propose principalement des services de développement web et mobile, mais aussi de design et de consulting web. Mon objectif est de vous aider à créer des produits de qualité, qui répondent à vos besoins et à ceux de vos utilisateurs."
+          "label": "Hangi tasarım ve geliştirme hizmetlerini sunuyorsunuz?",
+          "content": "Benim sunduğum hizmetler arasında kullanıcı dostu web tasarımı, frontend geliştirme, responsive (mobil uyumlu) tasarım, UI/UX tasarımı, web uygulamaları için interaktif özellikler geliştirme ve performans optimizasyonu bulunmaktadır. Ayrıca, markaların dijital kimliklerini oluşturarak görsel tasarımlarını profesyonel bir şekilde sunuyorum."
         },
         {
-          "label": "Peux-tu m'aider à apprendre à faire un site web?",
-          "content": "Je ne propose pas de cours pour le moment, mais je peux vous recommander des ressources et conseils pour vous orienter au mieux dans votre apprentissage."
+          "label": "Tasarım sürecinizin her aşamasında ne gibi adımlar izliyorsunuz?",
+          "content": "Tasarım sürecim genellikle üç ana aşamadan oluşur: araştırma, tasarım ve test. İlk aşamada kullanıcı ihtiyaçlarını, pazar araştırmasını ve rakip analizlerini yaparak projeyi şekillendiriyorum. İkinci aşamada, wireframe’ler, prototipler ve görsel tasarımlar hazırlayarak müşteri geri bildirimlerini alıyorum. Son aşamada ise, tasarımın uygulanabilirliğini test ederek kullanıcı deneyimini sürekli iyileştiriyorum."
+        },
+        {
+          "label": "Web ve mobil projelerinde hangi teknolojileri kullanıyorsunuz?",
+          "content": "Web projelerinde genellikle React.js, Vue.js, Tailwind CSS gibi modern teknolojiler kullanıyorum. Bu teknolojilerle hızlı, ölçeklenebilir ve kullanıcı dostu projeler geliştiriyorum. Mobil projelerde ise React Native kullanarak, iOS ve Android platformları için yüksek performanslı ve native benzeri deneyimler sağlayan uygulamalar oluşturuyorum. Ayrıca, yeni çıkan gelişmiş frontend ve mobil teknolojilerine hızlı bir şekilde uyum sağlıyor, sürekli olarak yeni araç ve framework’leri araştırarak projelerimi en güncel teknolojilerle güçlendiriyorum."
+        },
+        {
+          "label": "Hedef kitlenize uygun özel çözümler sunuyor musunuz?",
+          "content": "Evet, her projeyi hedef kitlenin ihtiyaçlarına göre özelleştiriyorum. Kullanıcı deneyimi ve işlevsellik ön planda tutularak, ziyaretçi kitlesinin beklentilerine hitap eden, estetik ve kullanışlı çözümler geliştiriyorum. Tasarımda, kullanıcı geri bildirimlerine dayalı iyileştirmeler yaparak her projeyi daha hedeflenmiş ve etkili hale getiriyorum."
+        },
+        {
+          "label": "Web ve mobil projelerinizde hangi özellikler yer alıyor?",
+          "content": "Web ve mobil projelerim, kullanıcı dostu erişilebilirlik standartlarına uygunluk sağlanır. SEO dostu yapılandırmalarla arama motorları için optimize edilir ve hızlı yükleme süreleri sağlanır. Hem web hem de mobil projelerde performans, güvenlik ve veri koruma konularına özen gösteririm."
         }
       ]
     },
     {
-      "title": "Tarification",
+      "title": "Fiyatlar",
       "questions": [
         {
-          "label": "Combien coûte un projet?",
-          "content": "Le coût d'un projet dépend de nombreux facteurs, tels que la taille du projet, les fonctionnalités, le temps de développement, etc. Le montant initial de mes services web commence à 2000€, avec une moyenne comprise entre 3000€ et 10000€. Pour tout autre service de design ou de consulting, je facture généralement 450€ par jour."
+          "label": "Hizmetlerinizin fiyatları nasıl belirleniyor?",
+          "content": "Fiyatlar, projenin kapsamına, karmaşıklığına ve gereksinimlerine göre belirlenir. Her proje farklı olduğu için, her biri özel bir teklif ve fiyatlandırma süreci gerektirir. Proje detaylarını inceledikten sonra, size en uygun fiyatı sunuyorum."
         },
         {
-          "label": "Comment fonctionne le paiement pour un projet?",
-          "content": "Je demande un acompte de 40% avant de commencer un projet, et les 60% restants après une livraison réussie. J'accepte les paiements par virement bancaire, PayPal, etc..."
+          "label": "Proje bazında mı, saatlik mi fiyatlandırıyorsunuz?",
+          "content": "Hem proje bazında hem de saatlik fiyatlandırma seçenekleri sunuyorum. Proje bazında fiyatlandırma, belirli bir kapsam ve teslim süresi olan işler için uygundur. Saatlik fiyatlandırma ise daha esnek projeler veya devam eden işler için tercih edilebilir."
         },
         {
-          "label": "Combien de temps dure un projet?",
-          "content": "Il est difficile de donner une estimation précise, car chaque projet est différent, mais la majorité de mes travaux passés ont pris entre 2 semaines et 2 mois."
-        },
-        {
-          "label": "Est-ce que je propose des réductions?",
-          "content": "J'offre une réduction de 15% pour les étudiants et les organisations à but non lucratif."
+          "label": "Fiyatlarınızda değişiklik oluyor mu?",
+          "content": "Fiyatlar, projenin kapsamına ve gereksinimlerine göre değişebilir. Ekstra talepler veya projenin genişlemesi durumunda fiyatlandırmada değişiklikler olabilir. Ancak, fiyat değişiklikleri hakkında her zaman müşteriye önceden bilgi verir ve onay alırım."
         }
       ]
     },
     {
-      "title": "Personnel",
+      "title": "Kişisel",
       "questions": [
         {
-          "label": "Qu'est-ce que tu préfères dans ce travail?",
-          "content": "J'adore apprendre de nouvelles choses et pouvoir créer à peu près tout à partir de rien, créer de belles choses que les gens utiliseront et apprécieront."
+          "label": "Neden frontend geliştirme ve tasarım alanında çalışmayı tercih ettiniz?",
+          "content": "Güzelliştirmeyi ve güzel görmeyi seviyorum. Yazılım analitik yeteneklerimle bunu birleştirmek istedim ve bu iki alanın birleşimi, hem estetik hem de işlevsel çözümler üretmeme olanak sağlıyor."
         },
         {
-          "label": "Des passions en dehors du travail?",
-          "content": "J'adore ce que je fais, donc je passe généralement beaucoup de temps à travailler sur des projets personnels, la photographie, etc. Je suis aussi un grand accro au sport. Je vais souvent à la salle de sport et j'ai récemment commencé l'escalade !"
+          "label": "Kariyerinizdeki en gurur verici projeniz nedir?",
+          "content": "Bir proje özelinde söylemek zor; ancak arayüzünü tasarladığım birkaç proje var ve bu projelerin arayüzlerini aylık milyonlarca insan kullanıyor. Bu durum beni çok gururlandırıyor. Ayrıca, gönüllü olarak çalıştığım vicdan projelerinin binlerce insana dokunması da her zaman gurur kaynağım oldu."
+        },
+        {
+          "label": "Kişisel olarak hangi teknolojileri keşfetmek istersiniz?",
+          "content": "Kişisel olarak, özellikle kullanıcı deneyimi ve görsel tasarım alanında derinleşmek istiyorum. Ayrıca, yapay zeka ve makine öğrenimi gibi gelişen teknolojileri keşfetmeyi çok isterim. Bu teknolojilerin yazılım geliştirmeye nasıl entegre edilebileceğini öğrenmek, kullanıcı deneyimlerini daha da iyileştirmek adına heyecan verici bir fırsat olabilir."
+        },
+        {
+          "label": "İş dışında nasıl vakit geçiriyorsunuz?",
+          "content": "Genelde kendimi geliştirmeye yönelik felsefi ve insan ilişkileri, metafizik ve uzay hakkında okumalar ve araştırmalarla vakit geçiriyorum. Ayrıca ibadetlerimle huzur buluyorum."
+        },
+        {
+          "label": "Gelecekteki hedefleriniz nelerdir?",
+          "content": "Gelecekteki hedefim, alanımda dünyanın en büyük projelerini ve şirketlerini kurmak ve insanlığa hizmet etmek."
         }
       ]
     }

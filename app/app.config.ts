@@ -1,26 +1,26 @@
 export default defineAppConfig({
   global: {
-    meetingLink: 'https://cal.com/hugorcd/15min',
+    meetingLink: 'https://cal.com/frkn-shn/15min',
     available: true,
   },
   profile: {
-    name: 'Hugo Richard',
+    name: 'Furkan Şahin',
     job: 'Frontend Architect and Designer',
-    email: 'contact@hrcd.fr',
-    phone: '(+33) 6 21 56 22 18',
-    picture: 'https://avatars.githubusercontent.com/u/71938701?v=4',
+    email: 'furkan@sahin.biz',
+    phone: '(+90) 543 287 11 27',
+    picture: '/photo.jpeg',
   },
   socials: {
-    github: 'https://github.com/HugoRCD',
-    twitter: 'https://twitter.com/HugoRCD__',
-    linkedin: 'https://www.linkedin.com/in/hugo-richard-0801',
-    instagram: 'https://www.instagram.com/hugo.rcd_',
-    spotify: 'https://open.spotify.com/user/yuvl0zpp3bpx4hne1ag7huten?si=df7ee2777c0c4fc4',
+    github: 'https://github.com/furkansahintr',
+    twitter: 'https://x.com/FurkanA15789474',
+    linkedin: 'https://linkedin.com/in/furkansahin61',
+    instagram: 'https://www.instagram.com/frkn_labs',
+    medium: 'https://medium.com/@dev.furkansahin',
   },
   seo: {
-    title: 'Canvas a Nuxt portfolio template',
-    description: 'Canvas is a simple but beautiful portfolio template for designers and developers built with Nuxt and Tailwind CSS. Made with ❤️ by HugoRCD',
-    url: 'https://canvas.hrcd.fr',
+    title: 'Furkan Şahin - Frontend Architect and Designer',
+    description: 'Bringing aesthetics and functionality together with modern frontend architecture and design-focused solutions.',
+    url: 'https://furkansahin.tr',
   },
   ui: {
     colors: {

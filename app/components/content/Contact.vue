@@ -71,7 +71,7 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
         @submit="onSubmit"
       >
         <UFormField
-          label="Fullname"
+          :label="t('contact.fullname')"
           name="fullname"
           required
         >
@@ -85,7 +85,7 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
         </UFormField>
 
         <UFormField
-          label="Email"
+          :label="t('contact.email')"
           name="email"
           required
         >
@@ -98,7 +98,7 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
         </UFormField>
 
         <UFormField
-          label="Phone"
+          :label="t('contact.phone')"
           name="phone"
         >
           <UInput
@@ -110,7 +110,7 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
         </UFormField>
 
         <UFormField
-          label="Subject"
+          :label="t('contact.subject')"
           name="subject"
           required
         >
@@ -122,7 +122,7 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
         </UFormField>
 
         <UFormField
-          label="Message"
+          :label="t('contact.message')"
           name="message"
           required
         >
@@ -131,7 +131,7 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
             autoresize
             class="w-full"
             :rows="4"
-            placeholder="Lets work together!"
+            :placeholder="t('contact.description')"
           />
         </UFormField>
         <div class="flex justify-center">

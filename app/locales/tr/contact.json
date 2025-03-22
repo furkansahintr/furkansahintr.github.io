@@ -1,20 +1,20 @@
 {
-  "title": "Contactez moi",
-  "description" : "Discutons de votre idée, projet ou de tout autre chose !",
-  "fullname": "Nom complet",
-  "email": "Email",
-  "phone": "Téléphone",
-  "subject": "Sujet de votre message",
-  "message": "Message",
-  "submit": "Envoyer",
-  "disabled": "Vous devez définir votre clé d'API resend",
-  "success": "Votre message a été envoyé avec succès",
-  "error": "Oups, une erreur s'est produite lors de l'envoi de votre message :(",
-  "budget": "Budget",
+  "title": "Bana Ulaşın",
+  "description": "Fikriniz, projeniz veya başka herhangi bir konu hakkında konuşalım!",
+  "fullname": "Tam ad",
+  "email": "E-posta",
+  "phone": "Telefon",
+  "subject": "Mesajınızın konusu",
+  "message": "Mesaj",
+  "submit": "Gönder",
+  "disabled": "API anahtarınızı yeniden belirlemeniz gerekiyor",
+  "success": "Mesajınız başarıyla gönderildi",
+  "error": "Oops, mesajınız gönderilirken bir hata oluştu :(",
+  "budget": "Bütçe",
   "subject_types": {
-    "project": "Parler d'un projet",
-    "bug": "Signaler un bug",
-    "question": "Poser une question",
-    "other": "Autre"
+    "project": "Bir proje hakkında konuşmak",
+    "bug": "Bir hata bildirmek",
+    "question": "Bir soru sormak",
+    "other": "Diğer"
   }
 }

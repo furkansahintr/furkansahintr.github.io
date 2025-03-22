@@ -20,8 +20,8 @@ const stack = await queryCollection('stack').first()
     <div class="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
       <AboutProfilePicture />
       <div class="relative flex flex-col gap-3 sm:ml-4">
-        <h3 class="text-lg">
-          Intro
+        <h3 class="text-white-shadow font-newsreader italic text-2xl">
+          {{ $t("global.intro") }}
         </h3>
         <div class="flex flex-col gap-4 text-primary">
           <slot
@@ -29,8 +29,8 @@ const stack = await queryCollection('stack').first()
             mdc-unwrap="p"
           />
         </div>
-        <AboutSignature class="absolute -bottom-24 right-0 hidden w-40 sm:block" />
-        <AboutSignature class="black absolute -bottom-24 -right-2 w-32 sm:hidden" />
+        <AboutSignature class="absolute -bottom-56 right-0 hidden w-56 sm:block" />
+        <AboutSignature class="black absolute -bottom-56 -right-2 w-48 sm:hidden" />
       </div>
     </div>
     <Divider class="my-8" />

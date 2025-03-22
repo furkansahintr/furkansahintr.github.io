@@ -134,12 +134,12 @@ export default defineNuxtSchema({
           icon: 'lucide:instagram',
           default: 'https://www.instagram.com/myusername',
         }),
-        spotify: field({
+        medium: field({
           type: 'string',
-          title: 'Spotify',
-          description: 'Your Spotify account.',
-          icon: 'lucide:spotify',
-          default: 'https://open.spotify.com/user/myusername',
+          title: 'Medium',
+          description: 'Your Medium account.',
+          icon: 'lucide:medium',
+          default: 'https://medium.com/myusername',
         }),
       },
     }),
