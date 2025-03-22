@@ -6,12 +6,16 @@ const route = useRoute()
 const { locale } = useI18n()
 
 const slug = computed(() => withLeadingSlash(String(route.params.slug)))
-const { data: faq } = await useAsyncData('faq-' + slug.value, async () => {
-  console.log(locale)
+
+const { data: faq, refresh } = await useAsyncData('faq-' + slug.value, async () => {
   const collection = ('faq_' + locale.value) as keyof Collections
   return await queryCollection(collection).first() as Collections['faq_en'] | Collections['faq_tr']
 }, {
-  watch: [() => locale.value, route],
+  watch: [locale, route],
+})
+
+watch(locale, () => {
+  refresh()
 })
 
 const items = computed(() => {
