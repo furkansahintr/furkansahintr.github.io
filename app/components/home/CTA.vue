@@ -23,6 +23,7 @@ const { t } = useI18n()
         </SpotlightButton>
       </UTooltip>
       <MeetingButton />
+      <CvButton />
     </div>
   </div>
 </template>

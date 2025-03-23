@@ -8,7 +8,7 @@ export default defineAppConfig({
     job: 'Frontend Architect and Designer',
     email: 'furkan@sahin.biz',
     phone: '(+90) 543 287 11 27',
-    picture: '/photo.jpeg',
+    picture: '/profile.png',
   },
   socials: {
     github: 'https://github.com/furkansahintr',

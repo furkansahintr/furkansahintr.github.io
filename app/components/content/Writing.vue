@@ -94,6 +94,7 @@ const toggleTag = (tag: string) => {
     >
       <li
         v-for="article of filteredArticles"
+        v-show="article.published"
         :key="article.path"
       >
         <ArticleCard

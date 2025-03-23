@@ -11,6 +11,7 @@ tags:
   - Productivity
 image: https://canvas.hrcd.fr/articles/trap-of-perfection.jpg
 readingTime: "3"
+published: false
 ---
 
 ![preview](/articles/trap-of-perfection.jpg)

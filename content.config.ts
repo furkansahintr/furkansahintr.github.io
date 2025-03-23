@@ -14,6 +14,7 @@ const commonArticleSchema = z.object({
   image: z.string().url(),
   readingTime: z.string().nonempty(),
   tags: z.array(z.string().nonempty()),
+  published: z.boolean(),
 })
 
 const commonProjectSchema = z.object({

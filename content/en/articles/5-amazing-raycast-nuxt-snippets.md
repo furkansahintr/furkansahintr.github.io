@@ -13,6 +13,7 @@ tags:
   - Productivity
 image: https://canvas.hrcd.fr/articles/5-raycast-snippets.jpg
 readingTime: "10"
+published: false
 ---
 
 ![preview](/articles/5-raycast-snippets.jpg)
