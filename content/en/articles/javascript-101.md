@@ -442,3 +442,5 @@ TypeScript is a JavaScript-based language developed by Microsoft. It is a supers
 ### 101.	ESLint
 
 ESLint is an open-source JavaScript linter tool that analyzes JavaScript code for errors, style issues, and code quality problems. Linting is the process of checking if the code adheres to specific style guides, best practices, and code quality standards.
+
+<img src="/assets/sign-light.svg" alt="preview" width="148" style="margin-left: auto; margin-top: 32px; margin-right: 64px;"/>

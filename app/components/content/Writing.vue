@@ -17,9 +17,15 @@ const { data: articles } = await useAsyncData('articles-' + locale.value, async 
 if (!articles.value)
   throw createError({ statusCode: 404, statusMessage: 'Page not found' })
 
-const tags = computed(() =>
-  Array.from(new Set(articles.value?.flatMap(article => article.tags))),
-)
+const tags = computed(() => {
+  return Array.from(
+    new Set(
+      articles.value
+        ?.filter(article => article.published)
+        .flatMap(article => article.tags),
+    ),
+  )
+})
 
 const filteredArticles = computed(() =>
   articles.value?.filter(article =>
