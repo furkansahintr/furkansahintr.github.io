@@ -433,5 +433,3 @@ TypeScript, Microsoft tarafından geliştirilen, JavaScript tabanlı bir dildir 
 ### 101. ESLint
 
 ESLint, JavaScript kodunu hataları, stil hataları ve kod kalitesi hataları açısından analiz eden açık kaynaklı bir JavaScript linter aracıdır. Linting, kodun belirli stil kılavuzlarına, en iyi uygulamalara ve kod kalitesi standartlarına uygun olup olmadığını denetleme işlemidir.
-
-<img src="/assets/sign-light.svg" alt="preview" width="148" style="margin-left: auto; margin-top: 32px; margin-right: 64px;"/>

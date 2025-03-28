@@ -75,5 +75,3 @@ Popüler uygulamaları analiz ederek renk paletleri, tipografi ve kullanıcı ak
 
 
 Unutmayın, UI UX tasarımı kullanıcıların ihtiyaçlarına göre sürekli evrilir ve gelişir. Yenilikleri takip ederek ve kullanıcı geri bildirimlerini dikkate alarak tasarımlarınızı daha başarılı hale getirebilirsiniz.
-
-<img src="/assets/sign-light.svg" alt="preview" width="148" style="margin-left: auto; margin-top: 32px; margin-right: 64px;"/>

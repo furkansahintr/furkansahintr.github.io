@@ -74,5 +74,3 @@ Successful and unsuccessful projects offer valuable lessons for designers. Real 
 By analyzing popular applications, you can evaluate elements such as color palettes, typography, and user flow. Comparing different products will help you create more user-friendly and effective designs.
 
 Remember, UI/UX design constantly evolves based on user needs. By keeping up with innovations and considering user feedback, you can enhance your designs for greater success.
-
-<img src="/assets/sign-light.svg" alt="preview" width="148" style="margin-left: auto; margin-top: 32px; margin-right: 64px;"/>
