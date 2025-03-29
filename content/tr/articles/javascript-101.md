@@ -5,7 +5,7 @@ description: JavaScript geliştiricilerinin bilmesi gereken 101 kavram ve açık
 tags:
   - Geliştirme
   - Verimlilik
-image: https://furkansahin.tr/articles/launch-your-porfolio.jpg
+image: https://furkansahin.tr/articles/js-101.jpg
 readingTime: "23"
 published: true
 ---

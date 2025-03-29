@@ -27,11 +27,18 @@ const tags = computed(() => {
   )
 })
 
+const parseDate = (dateStr: string) => {
+  const [day, month, year] = dateStr.split('/').map(Number)
+  return new Date(year ?? 2025, (month ?? 1) - 1, day)
+}
+
 const filteredArticles = computed(() =>
-  articles.value?.filter(article =>
-    (searchedTags.value.length === 0 || searchedTags.value.some(tag => article.tags.includes(tag)))
-    && (searchedTitle.value === '' || article.title!.toLowerCase().includes(searchedTitle.value.toLowerCase())),
-  ) ?? [],
+  (articles.value ?? [])
+    .filter(article =>
+      (searchedTags.value.length === 0 || searchedTags.value.some(tag => article.tags.includes(tag)))
+      && (searchedTitle.value === '' || article.title?.toLowerCase().includes(searchedTitle.value.toLowerCase())),
+    )
+    .sort((a, b) => parseDate(b.date).getTime() - parseDate(a.date).getTime()),
 )
 
 const toggleTag = (tag: string) => {
